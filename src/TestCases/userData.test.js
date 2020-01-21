@@ -1,8 +1,8 @@
 import React from 'react';
-import App from '../App';
+import App from '../Components/App';
 import {configure,shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import UserData from '../userData';
+import UserData from '../Components/userData';
 
 configure({adapter:new Adapter()});
 

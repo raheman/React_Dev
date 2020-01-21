@@ -1,9 +1,8 @@
 import React from 'react';
-import App from '../App';
 import {configure,shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Album from '../Album';
-import userData from '../userData';
+import Album from '../Components/Album';
+import userData from '../Components/userData';
 
 
 configure({adapter:new Adapter()});

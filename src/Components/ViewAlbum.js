@@ -1,7 +1,7 @@
 import React from 'react';
 
 import UserData from './userData';
-import GlobalServices from './Services/services';
+import GlobalServices from '../Services/services';
 
 class ViewAlbum extends React.Component{
 

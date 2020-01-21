@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
-import './App.css';
-import GlobalServices from './Services/services';
+import '../CSS/App.css';
+import GlobalServices from '../Services/services';
 import UserData from './userData';
-import UserImg from './user.png';
+import UserImg from '../Images/user.png';
 
 class App extends Component{
 constructor(){

@@ -1,8 +1,8 @@
 import React from 'react';
-import ViewAlbum from '../ViewAlbum';
+import ViewAlbum from '../Components/ViewAlbum';
 import {configure,shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import userData from '../userData';
+import userData from '../Components/userData';
 import axios from "axios";
 import GlobalServices from '../Services/services';
 

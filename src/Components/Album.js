@@ -1,7 +1,7 @@
 import React from 'react';
 import UserData from './userData';
-import GlobalServices from './Services/services';
-import UserImg from './album.png';
+import GlobalServices from '../Services/services';
+import UserImg from '../Images/album.png';
 
 class Album extends React.Component{
 

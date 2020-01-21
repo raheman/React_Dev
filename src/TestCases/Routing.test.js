@@ -1,12 +1,12 @@
 import React from 'react';
-import App from '../App';
+import App from '../Components/App';
 import {configure,shallow,mount} from 'enzyme';
 import {MemoryRouter} from 'react-router';
 import Adapter from 'enzyme-adapter-react-16';
-import Routing from '../Routing';
-import Album from '../Album';
-import ViewAlbum from '../ViewAlbum';
-import PhotoDisplay from '../PhotoDisplay';
+import Routing from '../Components/Routing';
+import Album from '../Components/Album';
+import ViewAlbum from '../Components/ViewAlbum';
+import PhotoDisplay from '../Components/PhotoDisplay';
 
 
 configure({adapter:new Adapter()});

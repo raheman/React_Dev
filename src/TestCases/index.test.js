@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routing from '../Routing';
+import Routing from '../Components/Routing';
 
 jest.mock("react-dom", () => ({ render: jest.fn() }));
 
